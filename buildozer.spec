@@ -7,7 +7,7 @@ title = Kivy Launcher
 package.name = launcher
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.kivy
+package.domain = org.alimj 
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -229,7 +229,7 @@ log_level = 2
 warn_on_root = 1
 
 # (str) Path to build artifact storage, absolute or relative to spec file
-# build_dir = ./.buildozer
+build_dir = /home/alimj/.buildozer/android/BUILDS/launcher
 
 # (str) Path to build output (i.e. .apk, .ipa) storage
 # bin_dir = ./bin
